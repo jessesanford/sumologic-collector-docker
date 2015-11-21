@@ -3,8 +3,8 @@
   "sources": [
     {
       "sourceType": "Syslog",
-      "name": "syslog-collector-container-tcp-514",
-      "port": 514,
+      "name": "syslog-collector-container-tcp-516",
+      "port": 516,
       "protocol": "TCP",
       "encoding": "UTF-8",
       "forceTimeZone": false,
@@ -12,8 +12,8 @@
     },
     {
       "sourceType": "Syslog",
-      "name": "syslog-collector-container-udp-514",
-      "port": 514,
+      "name": "syslog-collector-container-udp-516",
+      "port": 516,
       "protocol": "UDP",
       "encoding": "UTF-8",
       "forceTimeZone": false,
@@ -32,6 +32,24 @@
       "sourceType": "Syslog",
       "name": "syslog-collector-container-udp-515",
       "port": 515,
+      "protocol": "UDP",
+      "encoding": "UTF-8",
+      "forceTimeZone": false,
+      "category": "collector-container"
+    },
+    {
+      "sourceType": "Syslog",
+      "name": "syslog-collector-container-tcp-514",
+      "port": 514,
+      "protocol": "TCP",
+      "encoding": "UTF-8",
+      "forceTimeZone": false,
+      "category": "collector-container"
+    },
+    {
+      "sourceType": "Syslog",
+      "name": "syslog-collector-container-udp-514",
+      "port": 514,
       "protocol": "UDP",
       "encoding": "UTF-8",
       "forceTimeZone": false,
